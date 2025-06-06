@@ -3,7 +3,7 @@ import { useAtomValue } from "jotai";
 import { useNavigate, useParams } from "react-router-dom";
 import { productState } from "@/state";
 import { formatPrice } from "@/utils/format";
-import ShareButton from "./share-buttont";
+import ShareButton from "./share-button";
 import RelatedProducts from "./related-products";
 import { useAddToCart } from "@/hooks";
 import { Button } from "zmp-ui";
